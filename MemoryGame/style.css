@@ -1,6 +1,14 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
+  width: 500px;
   height: 300px;
+}
+img {
+  display: inline-block;
+}
+
+.card-border {
+  border: 1px solid black;
+  overflow-y: hidden;
 }
