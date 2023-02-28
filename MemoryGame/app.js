@@ -60,11 +60,12 @@ document.addEventListener("DOMContentLoaded", () => {
   let cardsWon = [];
 
   //create your board
-  function createBoard() {
+ function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
       const card = document.createElement("img");
       card.setAttribute("src", "images/blank.png");
       card.setAttribute("data-id", i);
+      card.setAttribute("class", "card-border");
       card.addEventListener("click", flipCard);
       grid.appendChild(card);
     }
