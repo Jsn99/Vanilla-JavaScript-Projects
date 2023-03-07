@@ -6,8 +6,7 @@ const todosUL = document.getElementById("todos");
 const todos = JSON.parse(localStorage.getItem("todos"));
 
 if (todos) {
-  //need to check for each todo orelse localStorage
-  //wont save the object properly
+  //need to check for each todo orelse localStorage wont save the object properly
   todos.forEach((todo) => addTodo(todo));
 }
 
