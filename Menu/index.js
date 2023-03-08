@@ -80,8 +80,6 @@ const menu = [
     desc: `A world-renowned Indian dish, biryani takes time and practice to make but is worth every bit of the effort`,
   },
 ];
-// get parent element
-
 
 // get parent element
 const sectionCenter = document.querySelector(".section-center");
