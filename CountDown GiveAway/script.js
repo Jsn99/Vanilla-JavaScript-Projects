@@ -23,7 +23,7 @@ const weekdays = [
 ];
 const giveaway = document.querySelector(".giveaway");
 const deadline = document.querySelector(".deadline");
-//we can choose only h4 from the div
+//To choose only h4 from the div
 const items = document.querySelectorAll(".deadline-format h4");
 
 let tempDate = new Date();
