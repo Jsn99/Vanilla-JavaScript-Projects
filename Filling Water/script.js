@@ -11,7 +11,7 @@ smallCups.forEach((cup, idx) => {
 function highlightCups(idx) {
   //To remove the last filled water by clicking on it
   if (idx === 7 && smallCups[idx].classList.contains("full")) idx--;
-  //same thing for rest of the cups to remove by clicking on the filled cup itself
+  //To remove water by clicking on the filled cup on remaining cups
   else if (
     smallCups[idx].classList.contains("full") &&
     !smallCups[idx].nextElementSibling.classList.contains("full")
