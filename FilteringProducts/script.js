@@ -90,9 +90,7 @@ const setCategories = () => {
       return allCategories.indexOf(item) === i;
     }),
   ];
-
-  console.log(categories);
-
+  
   categoriesContainer.innerHTML = categories
     .map(
       (category) =>
