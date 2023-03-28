@@ -34,7 +34,7 @@ function update() {
   progress.style.width =
     ((actives.length - 1) / (circles.length - 1)) * 100 + "%";
 
-  // button update
+  //button update
   if (currentActive === 1) {
     prev.disabled = true;
   } else if (currentActive === circles.length) {
