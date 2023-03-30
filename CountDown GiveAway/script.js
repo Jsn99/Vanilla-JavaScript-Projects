@@ -51,8 +51,7 @@ function getRemainingTime() {
   const oneMinute = 60 * 1000;
   // calculate all values
   let days = Math.floor(t / oneDay);
-  // to calculate the remaining time in milliseconds after removing the full days from the total time
-  // t%oneday is used
+  // to calculate the remaining time in milliseconds after removing the full days from the total time t%oneday is used
   let hours = Math.floor((t % oneDay) / oneHour);
   let minutes = Math.floor((t % oneHour) / oneMinute);
   let seconds = Math.floor((t % oneMinute) / 1000);
