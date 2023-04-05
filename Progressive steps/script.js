@@ -29,7 +29,7 @@ function update() {
       circle.classList.remove("active");
     }
   });
-  //progress line update after we add active classslist to circles.
+  //progress line update after adding active classslist to circles.
   const actives = document.querySelectorAll(".active");
   progress.style.width =
     ((actives.length - 1) / (circles.length - 1)) * 100 + "%";
