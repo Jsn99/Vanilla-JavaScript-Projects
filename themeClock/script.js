@@ -28,7 +28,7 @@ const months = [
   "Nov",
   "Dec",
 ];
-
+//Change the theme of the clock
 toggle.addEventListener("click", (e) => {
   const html = document.querySelector("html");
   if (html.classList.contains("dark")) {
