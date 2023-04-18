@@ -1,0 +1,56 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(pexels-pixabay-206359.jpg) no-repeat center center/cover;
+  color: white;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  margin: 0.4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff6ec;
+}
+
+h2 {
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+.txt-type {
+  margin-left: 10px;
+  font-weight: normal;
+  color: #dd7732;
+}
+
+.txt-type::after {
+  content: "";
+  margin-left: 4px;
+  width: 1px;
+  height: 5%;
+  border-right: 4px solid #dd7732;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
