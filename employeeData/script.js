@@ -17,7 +17,7 @@
   createEmployee.addEventListener("click", () => {
     addEmployeeModal.style.display = "flex";
   });
-
+  //Move out of the Employee Modal
   addEmployeeModal.addEventListener("click", (e) => {
     if (e.target.className === "addEmployee") {
       addEmployeeModal.style.display = "none";
