@@ -9,7 +9,7 @@
   const employeeList = document.querySelector(".employees__names--list");
   const employeeInfo = document.querySelector(".employees__single--info");
 
-  //Add employee
+  //Create new employee
   const createEmployee = document.querySelector(".createEmployee");
   const addEmployeeModal = document.querySelector(".addEmployee");
   const addEmployeeForm = document.querySelector(".addEmployee_create");
