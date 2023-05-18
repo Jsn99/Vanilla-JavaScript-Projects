@@ -109,6 +109,7 @@ function diplayMenuItems(menuItems) {
 }
 
 function displayMenuButtons() {
+// To get all the menu buttons
   let categories = menu.reduce((values, item) => {
     if (!values.includes(item.category)) {
       values.push(item.category);
